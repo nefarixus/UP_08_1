@@ -160,7 +160,10 @@ header {
     color: #3029D9;
 }
 
-
+main {
+    width: 1440px;
+    margin: 0 auto;
+}
 .main_container {
     padding: 114px 124px;
 }
