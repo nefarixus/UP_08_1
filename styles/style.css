@@ -326,6 +326,10 @@ main {
     text-align: center;
     justify-content: center;
     border-radius: 8px;
+    transition: .3s;
+}
+.card_one:hover {
+    box-shadow: 4px 10px 100px 10px rgba(0, 0, 0, 0.1);
 }
 .card_two {
     background: url(../img/Mask\ Group1.png) no-repeat 75% 0%, #3029D9;
@@ -337,6 +341,10 @@ main {
     text-align: center;
     justify-content: center;
     border-radius: 8px;
+    transition: .3s;
+}
+.card_two:hover {
+    box-shadow: 4px 10px 100px 10px rgba(0, 0, 0, 0.1);
 }
 .card_three {
     background: url(../img/Mask\ Group2.png) no-repeat 75% 0%, #111849;
@@ -348,6 +356,10 @@ main {
     text-align: center;
     justify-content: center;
     border-radius: 8px;
+    transition: .3s;
+}
+.card_three:hover {
+    box-shadow: 4px 10px 100px 10px rgba(0, 0, 0, 0.1);
 }
 .card_pic {
     margin-bottom: 34px;
