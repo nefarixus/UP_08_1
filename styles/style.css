@@ -5,6 +5,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    background: #1e1e1e;
 }
 header {
     display: block;
@@ -161,6 +162,7 @@ header {
 }
 
 main {
+    background: #FFF;
     width: 1440px;
     margin: 0 auto;
 }
@@ -309,15 +311,17 @@ main {
 .main_two {
     text-align: center;
     background: linear-gradient(to bottom #FFFFFF, #FBFBFB, #FFFFFF);
+    margin-bottom: 222px;
 }
 .cards_div {
     margin-top: 104px;
     display: flex;
     justify-content: center;
     gap: 33px;
+    padding-bottom: 48px;
 }
 .card_one {
-    background: url(../img/bg-effect.png) no-repeat 100% 100%;
+    background: url(../img/bg-effect.png) no-repeat 100% 100%, #FFF;
     width: 374px;
     height: 444px;
     display: flex;
@@ -328,8 +332,8 @@ main {
     border-radius: 8px;
     transition: .3s;
 }
-.card_one:hover {
-    box-shadow: 4px 10px 100px 10px rgba(0, 0, 0, 0.1);
+.shadow:hover {
+    box-shadow: 4px 10px 100px 10px rgba(0, 0, 0, 0.1);    
 }
 .card_two {
     background: url(../img/Mask\ Group1.png) no-repeat 75% 0%, #3029D9;
@@ -343,9 +347,6 @@ main {
     border-radius: 8px;
     transition: .3s;
 }
-.card_two:hover {
-    box-shadow: 4px 10px 100px 10px rgba(0, 0, 0, 0.1);
-}
 .card_three {
     background: url(../img/Mask\ Group2.png) no-repeat 75% 0%, #111849;
     width: 374px;
@@ -357,9 +358,6 @@ main {
     justify-content: center;
     border-radius: 8px;
     transition: .3s;
-}
-.card_three:hover {
-    box-shadow: 4px 10px 100px 10px rgba(0, 0, 0, 0.1);
 }
 .card_pic {
     margin-bottom: 34px;
@@ -377,4 +375,103 @@ main {
     font-size: 14px;
     font-weight: 500;
     line-height: 28px;
+}
+
+.main_three {
+    position: relative;
+    padding: 140px 124px;
+    background: #3029D9;
+}
+.title_neg {
+    font-family: "Poppins", sans-serif;
+    color: #5975FF;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 68px;
+}
+.second_title_neg {
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 68px;
+}
+.main_button {
+    margin-top: 38px;
+    padding: 9px 26px;
+}
+.main_button:hover {
+    padding: 9px 26px;
+}
+.dots {
+    position: absolute;
+    top: 62px;
+    right: 124px;
+}
+.main_pic {
+    position: absolute;
+    top: -92px;
+    right: 214px;
+}
+
+.main_four {
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+    margin-top: 178px;
+}
+.four_left_side {
+    display: flex;
+    gap: 24px;
+}
+.four_text_side {
+    padding-top: 36px;
+}
+.four_second_title {
+    margin-bottom: 12px;
+}
+.box_title {
+    font-family: "Poppins", sans-serif;
+    color: #0B1131;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+.boxes {
+    border-radius: 8px;
+    padding: 63px 75px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    transition: .3s;
+}
+.rect {
+    background: #3029D9;
+    width: 72px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 80px 80px 80px 0px;
+}
+.solo_box {
+    margin: auto 0;
+}
+.combo_box {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+.link_box {
+    text-decoration: none;
+}
+.link_box_center {
+    text-decoration: none;
+    display: flex;
+}
+.boxes:hover {
+    box-shadow: 0px 50px 100px 0px rgba(0, 0, 0, 0.1);
 }
