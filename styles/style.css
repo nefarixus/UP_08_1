@@ -228,41 +228,29 @@ main {
     gap: 33px;
     padding-bottom: 48px;
 }
-.card_one {
+.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: url(../img/bg-effect.png) no-repeat 100% 100%, #FFFFFF;
     width: 374px;
     height: 444px;
     align-items: center;
     text-align: center;
     border-radius: 8px;
     transition: .3s;
+}
+.card img {
+    width: 22px;
+    height: 22px;
+}
+.card_one {
+    background: url(../img/bg-effect.png) no-repeat 100% 100%, #FFFFFF;
 }
 .card_two {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     background: url(../img/Mask\ Group1.png) no-repeat 75% 0%, #3029D9;
-    width: 374px;
-    height: 444px;
-    align-items: center;
-    text-align: center;
-    border-radius: 8px;
-    transition: .3s;
 }
 .card_three {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     background: url(../img/Mask\ Group2.png) no-repeat 75% 0%, #111849;
-    width: 374px;
-    height: 444px;
-    align-items: center;
-    text-align: center;
-    border-radius: 8px;
-    transition: .3s;
 }
 .shadow:hover {
     box-shadow: 4px 10px 100px 10px rgba(0, 0, 0, 0.1);    
@@ -692,44 +680,51 @@ footer {
         margin: 0 auto;
         padding: 2px 10px;
     }
-    
+    .main_one .button {
+        display: flex;
+        justify-content: center;
+        max-width: max-content;
+        margin: 0 auto;
+        padding: 2px 10px;
+    }
     /* main */
     
     main {
         background: #F4F4F4;
-        width: 1440px;
-        margin: 0 auto;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
     }
     
     /* main-one */
     
     .main_one {
+        width: 100%;
         display: flex;
-        justify-content: center;
-        padding: 114px 124px;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 0px;
         margin-bottom: 47px;
+    }
+    .main_first_part {
+        padding: 0px 10px;
     }
     .main_second_part {
         display: flex;
-        gap: 28px;
-        margin-top: 159px;
+        justify-content: center;
+        margin-top: 50px;
+        gap: 4px;
     }
     .second_side {
         display: flex;
         flex-direction: column;
-        gap: 23px;
-    }
-    .up {
-        margin-top: 55px;
-    }
-    .down {
-        margin-bottom: 55px;
+        gap: 4px;
     }
     .blocks {
         padding: 37px 50px;
         background: #D6D4F7;
-        width: 278px;
-        height: 171px;
+        width: 220px;
+        height: 130px;
     }
     .block_one {
         border-radius: 80px 0px 80px 80px;
@@ -745,7 +740,7 @@ footer {
     }
     .block_description, .card_text_two, .card_text_three 
     {
-        line-height: 28px;
+        line-height: 0px;
         font-weight: 500;
     }
     
@@ -759,45 +754,29 @@ footer {
     .cards_div {
         display: flex;
         justify-content: center;
-        margin-top: 104px;
-        gap: 33px;
+        margin-top: 50px;
+        gap: 10px;
         padding-bottom: 48px;
     }
-    .card_one {
+    .card {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        background: url(../img/bg-effect.png) no-repeat 100% 100%, #FFFFFF;
         width: 374px;
         height: 444px;
         align-items: center;
         text-align: center;
         border-radius: 8px;
         transition: .3s;
+    }
+    .card_one {
+        background: url(../img/bg-effect.png) no-repeat 100% 100%, #FFFFFF;
     }
     .card_two {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         background: url(../img/Mask\ Group1.png) no-repeat 75% 0%, #3029D9;
-        width: 374px;
-        height: 444px;
-        align-items: center;
-        text-align: center;
-        border-radius: 8px;
-        transition: .3s;
     }
     .card_three {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         background: url(../img/Mask\ Group2.png) no-repeat 75% 0%, #111849;
-        width: 374px;
-        height: 444px;
-        align-items: center;
-        text-align: center;
-        border-radius: 8px;
-        transition: .3s;
     }
     .shadow:hover {
         box-shadow: 4px 10px 100px 10px rgba(0, 0, 0, 0.1);    
@@ -933,24 +912,38 @@ footer {
     
     /* text-styles */
     
-    .title {
+    .main_one .title {
+        text-align: center;
         color: #3029D9;
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 68px;
-    }
-    .second_title {
-        color: #0B1131;
-        font-size: 48px;
-        font-weight: 700;
-        line-height: 68px;
-    }
-    .third_title {
-        color: #a0abb8;
         font-size: 14px;
+        font-weight: 600;
+        line-height: 48px;
+    }
+    .main_two .title {
+        text-align: center;
+        color: #3029D9;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 48px;
+    }
+    .main_one .second_title {
+        color: #0B1131;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+    }
+    .main_two .second_title {
+        color: #0B1131;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 36px;
+    }
+    .main_one .third_title {
+        color: #a0abb8;
+        font-size:12px;
         font-weight: 500;
         line-height: 28px;
-        padding: 12px 0px;
+        padding: 8px 0px;
     }
     .header_button2 {
         color: #FFFFFF;
@@ -982,13 +975,13 @@ footer {
     }
     .block_number {
         color: #3029D9;
-        font-size: 44px;
-        line-height: 68px;
+        font-size: 20px;
+        line-height: 36px;
         font-weight: 700;
     }
     .block_description {
         color: #3029D9;
-        font-size: 16px;
+        font-size: 12px;
     }
     .card_text_two {
         color: #9794EC;
