@@ -821,33 +821,37 @@ footer {
         margin-top: 0px;
     }
     .four_left_side {
+        margin-top: 20px;
+        margin-bottom: 20px;
         display: flex;
         flex-direction: row;
-        gap: 24px;
+        justify-content: center;
+        gap: 25px;
         order: 1;
     }
     .combo_box {
         display: flex;
         flex-direction: row;
-        gap: 36px;
+        gap: 25px;
     }
     .link_box_center {
         display: flex;
     }
     .solo_box {
+        width: 82px;
         display: flex;
         flex-direction: column;
         margin: auto 0;
     }
     .combo_box a {
-        width: 100px;
-        height: 100px;
+        width: 82px;
+        height: 100%;
     }
     .boxes {
         display: flex;
         flex-direction: column;
         border-radius: 8px;
-        padding: 20px 20px;
+        padding: 0px;
         text-align: center;
         align-items: center;
         gap: 18px;
@@ -1113,9 +1117,9 @@ footer {
     }
     .box_title {
         color: #0B1131;
-        font-size: 12px;
+        font-size: 8px;
         font-weight: 700;
-        line-height: 16px;
+        line-height: 12px;
     }
     .text {
         color: #FFFFFF;
