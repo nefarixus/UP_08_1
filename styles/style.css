@@ -1263,11 +1263,10 @@ footer {
         display: inline;
         float: left;
     }
-    #prev-btn, #next-btn {
+    #viewport #prev-btn, #viewport #next-btn {
         position: absolute;
         width: 25px;
         height: 25px;
-        background-color: transparent;
         border-radius: 50%;
         top: calc(50% - 25px);
     }
